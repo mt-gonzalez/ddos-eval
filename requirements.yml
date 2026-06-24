@@ -1,0 +1,16 @@
+name: ddos-eval
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.13
+  - pandas
+  - numpy
+  - matplotlib
+  - pytorch
+  - pip
+  - pip:  
+    - dotenv
+    - fastapi
+    - uvicorn
+    - kagglehub
